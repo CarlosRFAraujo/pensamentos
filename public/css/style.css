@@ -1,0 +1,321 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: indigo;
+    color: #fff;
+}
+
+#logo img {
+    background-color: rgb(42, 0, 71);
+    height: 40px;
+}
+
+#navbar {
+    padding: 1,2em 1.4em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(42, 0, 71);
+    border-bottom: 2px solid #f6982e;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    background-color: rgb(42, 0, 71);
+}
+
+#navbar ul li {
+    margin-left: 1em;
+    
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+    background-color: rgb(42, 0, 71);
+}
+
+#navbar ul li a:hover {
+    color: #f6982e;
+}
+
+.container {
+    min-height: 65vh;
+    padding: 1em;
+}
+
+.mensagem {
+    padding: 1em;
+    color: #004085;
+    background-color: #fff;
+    border: 1px solid #b8daff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 2em;
+    max-width: 60%;
+}
+
+.auth-container {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-container h2 {
+    margin-bottom: 1em;
+    color: #fff;
+    border-left: 4px solid #f6982e;
+    padding: 0.3em;
+    width: 100px;
+}
+
+.auth-container a {
+    color: #f6982e;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;    
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.form-control input, .form-control textarea {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #f6982e;
+}
+
+.form-control button, .title-container .button {
+    background-color: transparent;
+    color: #f6982e;
+    border: 1px solid #f6982e;
+    padding: 0.5em 1.2em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+    max-width: 150px;
+    align-items: center;
+    justify-items: center;
+    height: 30px;
+}
+
+.form-control button:hover {
+    background-color: #f6982e;
+    color: #fff;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.2em;
+}
+
+.title-container h2 {
+    border-left: 4px solid #f6982e;
+    padding: 10px;
+    margin: 1em 0em;
+}
+
+.dashboard h3 {
+    margin: 1em 0em;
+}
+
+.dashboard ul {
+    list-style: none;
+
+}
+
+.dashboard li {
+    padding: 12px;
+    border-bottom: #f6982e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard li .li-pensamentos {
+    display: block;
+}
+
+.dashboard .label {
+    font-weight: bold;
+    color: #f6982e;
+    margin-right: 2em;
+}
+
+.dashboard .pensamento {
+    color: #f6982e;
+    margin-right: 2em;
+}
+
+.dashboard .actions {
+    display: flex;
+}
+
+.dashboard .actions .btn-pensamento {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.5em 1.2em;    
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+    max-width: 150px;
+    align-items: center;
+    justify-items: center;
+    margin: 0 0.5em;
+}
+
+.dashboard .actions .btn-pensamento:hover {
+    background-color: #f6982e;
+    color: #fff;    
+}
+
+.tought-form-container a {
+    color: #f6982e;
+}
+
+.tought-form-container a:hover {
+    color: #fff;
+}
+
+.tought-form-container h2 {
+    margin: 1em 0em;
+    color: #fff;
+    border-left: 4px solid #f6982e;
+    padding: 0.3em;
+}
+
+.tought-form-container form {
+    max-width: 30%;
+    margin-top: 1.5em;
+}
+
+.home-header {
+    display: flex;
+    flex-direction: column;
+    max-width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+.home-header h2 {
+    margin-bottom: 1.2em;
+}
+
+.home-header span {
+    color: #f6982d;
+    margin: auto;
+}
+
+.home-header form {
+    margin-bottom: 1.2em;
+}
+
+.home-header input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 50%;
+    padding: 0.5em;
+    margin-right: 1em;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.home-header .btn {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.5em 1.2em;    
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+    max-width: 150px;
+    align-items: center;
+    justify-items: center;
+    margin: 0 0.5em;
+}
+
+.home-header .btn:hover {
+    background-color: #f6982e;
+    color: #fff;   
+}
+
+.ordenar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto 1em;
+}
+
+.ordenar-container span {
+    font-weight: bold;
+    color: #fff;
+}
+
+.ordenar-container form {
+    margin: 0;
+}
+
+.ordenar-container button {
+    margin-bottom: 0;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.ordenar-container a:hover,
+.ordenar-container i:hover {
+    background-color: #f6982e;
+    color: #fff;   
+}
+
+.toughts-container figure {
+    border-bottom: 1px solid #f6982e;
+    padding: 0.5em;
+    max-width: 60%;
+    margin: 0 auto 1em;
+}
+
+.toughts-container blockquote {
+    font-style: italic;
+    font-size: 2.rem;
+    margin-bottom: 0.5em;
+}
+
+.toughts-container span {
+    color: #f6982d;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #f6982e;    
+}
+
+footer span {
+    font-weight: bold;
+    color: #f6982e;
+    margin-left: 1em;
+}
